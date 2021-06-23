@@ -9,6 +9,8 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/rappasoft/laravel-boilerplate.svg)
 ![GitHub stars](https://img.shields.io/github/stars/rappasoft/laravel-boilerplate.svg?style=social)
 
+### MAKE SURE composer update kyawnaingthu/laravel-modules ###
+
 ### Demo Credentials
 
 **Admin:** admin@admin.com  
@@ -44,3 +46,5 @@ If you discover a security vulnerability within this boilerplate, please send an
 ### License
 
 MIT: [http://anthony.mit-license.org](http://anthony.mit-license.org)
+
+### Customize With Laravel Module by KyawNaingThu
