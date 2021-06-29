@@ -17,7 +17,28 @@
                 icon="c-sidebar-nav-icon cil-speedometer"
                 :text="__('Dashboard')" />
         </li>
-
+        @foreach(Module::all() as $module)
+            @if (Module::getByStatus(1))                            
+                <?php 
+                    $module = $module->getLowerName();
+                    $route = 'admin.'.$module.'.index';
+                    $active = 'admin.'.$module.'*';
+                    $mod_trans = __($module.'::menus.backend.sidebar.'.$module);
+                    $active = activeClass(Route::is("admin.$module.*"), 'c-active');
+                    
+                ?>
+                @can('admin.access.'.$module.'.manage')                   
+                    <li class="c-sidebar-nav-item">
+                        <x-utils.link
+                            class="c-sidebar-nav-link"
+                            :href="route($route)"
+                            :active="$active"
+                            icon="c-sidebar-nav-icon cil-speedometer"
+                            :text="$mod_trans" />
+                    </li>
+                @endcan
+            @endif
+        @endforeach
         @if (
             $logged_in_user->hasAllAccess() ||
             (
