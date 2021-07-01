@@ -33,7 +33,7 @@
                             class="c-sidebar-nav-link"
                             :href="route($route)"
                             :active="$active"
-                            icon="c-sidebar-nav-icon cil-speedometer"
+                            icon="{{ config($module.'.icon') }}"
                             :text="$mod_trans" />
                     </li>
                 @endcan
