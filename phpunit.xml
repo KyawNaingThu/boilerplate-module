@@ -16,6 +16,7 @@
 <!--    </testsuite>-->
     <testsuite name="Feature">
       <directory suffix="Test.php">./tests/Feature</directory>
+      <directory suffix="Test.php">./Modules/**/Tests/Feature</directory>
     </testsuite>
   </testsuites>
   <!--    <logging>-->
