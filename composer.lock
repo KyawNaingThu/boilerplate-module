@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e5fb3add07447669acb3f06d3078b6a",
+    "content-hash": "309f1f69c36b7f0a95ec7fc026a253af",
     "packages": [
         {
             "name": "arcanedev/log-viewer",
@@ -1564,12 +1564,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/KyawNaingThu/custom-laravel-boilerplate-module.git",
-                "reference": "222d9891466f65021cb4e67c48553f4ccc8f114a"
+                "reference": "c2d7662fa0ebce55f557fefb8ce5b9c6a095dbd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KyawNaingThu/custom-laravel-boilerplate-module/zipball/222d9891466f65021cb4e67c48553f4ccc8f114a",
-                "reference": "222d9891466f65021cb4e67c48553f4ccc8f114a",
+                "url": "https://api.github.com/repos/KyawNaingThu/custom-laravel-boilerplate-module/zipball/c2d7662fa0ebce55f557fefb8ce5b9c6a095dbd8",
+                "reference": "c2d7662fa0ebce55f557fefb8ce5b9c6a095dbd8",
                 "shasum": ""
             },
             "require": {
@@ -1638,7 +1638,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-23T11:01:20+00:00"
+            "time": "2021-07-01T02:09:24+00:00"
         },
         {
             "name": "lab404/laravel-impersonate",

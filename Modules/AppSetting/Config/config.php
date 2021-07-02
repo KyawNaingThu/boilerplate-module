@@ -2,7 +2,7 @@
 
 return [
     'name' => 'AppSetting',
-    'icon' => 'nav-icon fas fa-cog',
+    'icon' => 'c-sidebar-nav-icon cil-cog',
     'basic' => [
         
         'name' => env('APP_NAME', 'Boilerplate'),

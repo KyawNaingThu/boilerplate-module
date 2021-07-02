@@ -1,7 +1,15 @@
 ## Laravel Boilerplate (Current: Laravel 8.*) ([Demo](https://demo.laravel-boilerplate.com))
 
 ### MAKE SURE composer update kyawnaingthu/laravel-modules ###
+- after fresh install
+- composer install
+- npm install && npm run dev
+- php artisan migrate
+- php artisan db:seed
 
+- php artisan module:enable AppSetting
+- php artisan module:seed AppSetting
+- php artisan optimize
 ### Demo Credentials
 
 **Admin:** admin@admin.com  
